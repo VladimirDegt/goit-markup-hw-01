@@ -1,0 +1,92 @@
+:root {
+    --primary-color: #FFFFFF;
+    --accent-text-color: #4D5AE5;
+    --second-background-title: #2E2F42;
+}
+
+/* глобальные стили */
+body {
+    background-color: var(--primary-color);
+    color: #434455;
+}
+
+.reset {
+    list-style: none;
+    text-decoration: none;
+}
+
+/* стили navigation */
+.logo {
+    color: var(--accent-text-color);
+}
+
+.logo .nav-span {
+    color: var(--second-background-title);
+}
+
+.site-nav {
+    color: var(--second-background-title);
+}
+.site-nav a:hover,
+.site-nav a:focus {
+    color: var(--accent-text-color);
+}
+
+.contacts a {
+    color: #434455;
+}
+.contacts a:hover,
+.contacts a:focus {
+    color: var(--accent-text-color);
+}
+
+/* стили hero */
+.hero {
+    background-color: var(--second-background-title);
+}
+
+.hero-title {
+    color: var(--primary-color);
+}
+
+.hero-button {
+    color: var(--primary-color);
+    background-color: var(--accent-text-color);
+    border: none;
+    cursor: pointer;
+}
+.hero-button:hover,
+.hero-button:focus {
+    background-color:blue;
+}
+
+/* cтили section */
+.hide {
+    opacity: 0;
+    /* или display: none; ???*/
+    padding: 0;
+    margin: 0;
+}
+
+.sectionOne-title,
+.sectionTwo-title,
+.sectionTeam-title {
+    color: var(--second-background-title);
+}
+
+.sectionTeam {
+    background-color: #F4F4FD
+}
+
+/* cтили footer */
+.footer {
+    background-color: var(--second-background-title);
+}
+
+.logo .footer-span {
+    color: #F4F4FD;
+}
+
+.footer p {
+    color: #E7E9FC;
+}
